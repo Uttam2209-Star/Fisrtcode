@@ -4,20 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    .uttam{
+        border: 50px;
+        background-color: rgba(180, 211, 239, 0.929);
+        box-sizing:border-box;
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 1%;
+        border-radius: ;
+        text-align: center;
+    }
+        .h1{ border: 50px;
+            box-sizing: border-box;
+            width: 200;
+            height: 20;
+        background-color: rgb(222, 112, 112);
+    }
+        </style>
 </head>
 <body>
     <div class="h1">
-        <h1 align="center">Quiz Here</h1>
-    </div>
-    <div class="form" align="center">
-        <form action="q2.html">
+        <h1 align="center">Student Details</h1>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p align="center" style="color: rgb(161, 0, 32);"><b>Fill the Below Details</b></p>
+    <div class="uttam" align="center">
+        <form> 
             <table>
-                <tr><td><input type="radio" name="utt" id="no">YES
-
-                </td></tr>
-                <tr><td><input type="radio" name="utt" id="strht">NO</td></tr>
-            </table>
-            <input type="submit" value="submit">
+                <tr><td>Name: <input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth: <input type="date" name="dat" id="dat"></td>
+                </tr>
+                <tr>
+                    <td>Email: <input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile No.: <input type="number" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td>Set Password: <input type="password" name="pass" id="pass"></td>
+                </tr>
+                <tr>
+                    <td>Id Proof: <input type="file" name="file" id="file"></td>
+                </tr>
+            </table><br>
+            <input type="submit" value="Submit" style="color: darkorange;">
         </form>
     </div>
 </body>

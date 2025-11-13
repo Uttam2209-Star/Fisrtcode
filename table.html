@@ -1,0 +1,36 @@
+<!-- create a form using labels, field sets, select an option tag, textarea, button, elements, form attributes
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+  <form action="#submit" align="center">
+    <fieldset style="color: brown; border-color: darkblue;">
+      <legend>Information</legend>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required><br><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="gender">Gender:</label>
+      <select name="gender" id="gender" disabled>
+        <option value=" ">--select your gender--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+    
+      <label for="phone">Mobile No.</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+      <input type="submit">
+</fieldset>
+  </form>
+</body>
+</html>

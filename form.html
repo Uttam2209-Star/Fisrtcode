@@ -4,25 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    .uttam{
+        border: 50px;
+        background-color: rgba(249, 246, 241, 0.929);
+        padding: 10%;
+        box-sizing:border-box;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        
+        border-radius: 5%;
+        text-align: center;
+    } .h1{
+        background-color: burlywood;
+    }
+</style>
 </head>
 <body>
     <div class="h1" align="center"><h1>Students Login</h1>
 </div>
-<div class="form">
-    <form action="q1.html">
-        <table border="0" align="center">
-            <tr>
-                <td><br>Email Id</td>
-                <td><br><input type="email" name="email1" required></td>
-            </tr>
-                <tr>
-                    <td><br>Password</td>
-                    <td><br><input type="password" name="password1" required></td>
-                </tr>
-                <tr>
-                    <td><br><input type="submit" value="Login"></td>
-                </tr>
-           </table>
+<div class="uttam">
+    <form action="q1.html" align="center">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required><br> <br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" required><br> <br>
+        <label for="email">Email Id</label>
+        <input type="email" name="email" id="email" required>
+        <input type="submit" value="Login">
+        <p>Didn't have an account? <a href="q1.html">Click Here</a></p>
     </form>
 </div>
 </body>

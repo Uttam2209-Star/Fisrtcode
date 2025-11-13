@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables Example</title>
+</head>
+<body>
+    <br>
+ <table border="1" cellpadding="5" cellspacing="0" align="center" style="border-color: gold;">
+    <caption><strong>Employee Details</strong></caption>
+      <tr style="color: crimson;">
+        <th rowspan="2">Employee ID</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Contact Information</th>
+        <th rowspan="2">Department</th>
+      </tr>
+      <tr style="color: crimson;">
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>Neeraj</td>
+        <td>neeraj123@gmail.com</td>
+        <td>+919999999999</td>
+        <td>Networking</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Ritesh</td>
+        <td>ritesh321@gmail.com</td>
+        <td>+918888888888</td>
+        <td>IT -Web Development</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Shivam</td>
+        <td colspan="2">
+          <table border="1" cellpadding="4" cellspacing="0" width="100%">
+            <caption>Contact Numbers</caption>
+            <tr>
+              <th>Type</th>
+              <th>Number</th>
+            </tr>
+            <tr>
+              <td>Office</td>
+              <td>+917777777777</td>
+            </tr>
+            <tr>
+              <td>Mobile</td>
+              <td>+916676667777</td>
+            </tr>
+          </table>
+        </td>
+        <td>IT - CyberSecurity</td>
+      </tr>
+      <tr>
+        <td colspan="5" align="center">End of Employee Records</td>
+      </tr>
+    </table>
+</body>
+</html>   
